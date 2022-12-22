@@ -33,7 +33,8 @@ const ListComponent = () => {
       <ul className={styles.timer__list}>
         {listItem.map((item, index) => (
           <li className={styles.timer__item} key={item.id}>
-            <div className={styles.timer__itemNumber}>{index + 1}.</div> <Item id={item.id} time={item.time} filteredList={filteredList} />
+            <div className={styles.timer__itemNumber}>{index + 1}.</div>{' '}
+            <Item id={item.id} time={item.time} filteredList={filteredList} />
           </li>
         ))}
       </ul>
