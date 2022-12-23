@@ -1,5 +1,5 @@
 import React from 'react';
-import ListComponent from './components/ListComponent';
+import ListComponent from '../ListComponent';
 import './App.css';
 
 function App() {
